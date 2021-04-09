@@ -1,0 +1,20 @@
+.FooterExterComment {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.FooterExterComment > p {
+	font-weight: normal;
+	font-size: 15px;
+	color: rgb(194, 23, 51);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.FooterExterComment > p {
+		font-size: 10px;
+	}
+}

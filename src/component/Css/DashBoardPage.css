@@ -1,0 +1,250 @@
+.DashBoard {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashboardLogo {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 180px;
+	height: 80px;
+	object-fit: contain;
+}
+
+.dashboardContent {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dashLeftSide {
+	height: 100vh;
+	width: 20%;
+	/* margin-top: -155px; */
+	background-color: rgb(250, 243, 244);
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.dashrightSide {
+	width: 90%;
+	height: auto;
+	display: flex;
+	margin-top: 60px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.reportCard {
+	width: 400px;
+	height: 220px;
+	margin: 15px;
+
+	box-shadow: 0px 0px 0px 2px lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.reportCard > p {
+	font-size: 40px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	color: gray;
+}
+
+.fileForReportButton {
+	margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	background-color: green;
+	outline: none;
+	border: 0px;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.dashBoardProfilePIcs {
+	/* margin-top: 200px; */
+	margin-bottom: 70px;
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	background-color: lightgray;
+	border: 2px solid darkgray;
+}
+
+.TheDashBoardOption > p {
+	margin-bottom: 20px;
+	color: rgb(236, 27, 62);
+	cursor: pointer;
+}
+
+.dashboardLOgOutButton {
+	margin-top: 50px;
+	width: 120px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.dashBoardHOrizontalHeader {
+	display: none;
+}
+
+.footerHolder {
+	margin-top: 70px;
+}
+
+@media screen and (max-width: 1440px) {
+	.dashLeftSide {
+		width: 30%;
+	}
+	.reportCard {
+		width: 320px;
+		height: 200px;
+		margin: 15px;
+	}
+}
+
+@media screen and (max-width: 934px) {
+	.reportCard {
+		width: 300px;
+		height: 200px;
+		margin: 10px;
+	}
+
+	.dashBoardProfilePIcs {
+		width: 90px;
+		height: 90px;
+	}
+
+	.dashboardLOgOutButton {
+		width: 100px;
+		height: 35px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.dashboardLogo {
+		width: 100px;
+		height: 40px;
+	}
+	.fileForReportButton {
+		width: 120px;
+		height: 40px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.dashLeftSide {
+		width: 30%;
+	}
+
+	.reportCard {
+		width: 200px;
+		height: 150px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.reportCard > p {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 625px) {
+	.dashLeftSide {
+		width: 38%;
+	}
+	.reportCard {
+		width: 180px;
+		height: 120px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.dashboardContent {
+		flex-direction: column;
+	}
+	.dashBoardHOrizontalHeader {
+		display: flex;
+		width: 100%;
+		height: 50px;
+		background-color: rgb(250, 243, 244);
+		align-items: center;
+		justify-content: space-between;
+	}
+	.dashBoardSmallScreenLOgo {
+		margin-left: 20px;
+		width: 65px;
+		height: 25px;
+		object-fit: cover;
+		background-color: gray;
+	}
+
+	.dashLeftSide {
+		display: none;
+	}
+
+	.dashBoardProfilePicsAndSignOUtButton {
+		width: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.smallSCreenPrfilePics {
+		width: 30px;
+		height: 30px;
+		object-fit: cover;
+		border-radius: 100%;
+		background-color: gray;
+	}
+	.smallScreenlogoutButton {
+		width: 60px;
+		height: 25;
+		margin-right: 20px;
+		margin-left: 8px;
+		background-color: red;
+		border: none;
+		outline: none;
+		font-size: 10px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		color: white;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+	.therightSummarydashboard {
+		width: 100%;
+		height: auto;
+	}
+	.reportCard {
+		width: 120px;
+		height: 60px;
+	}
+	.reportCard > p {
+		font-size: 15px;
+	}
+}

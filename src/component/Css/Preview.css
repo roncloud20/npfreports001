@@ -1,0 +1,158 @@
+.Preview {
+	font-weight: normal;
+	font-size: 50px;
+	margin-top: 50px;
+	color: rgb(235, 103, 125);
+	margin-left: 10%;
+}
+.PreviewPageBody {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	/* flex-direction: column; */
+}
+
+.PreviewPageBodyContent {
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.PreviewThisContent {
+	width: 70%;
+	outline: 1px solid gray;
+}
+
+.PreviewThisContent > p {
+	line-height: 30px;
+	width: 80%;
+	text-align: start;
+}
+
+.buttonHolder {
+	margin-top: 40px;
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.EditButton {
+	width: 130px;
+	height: 40px;
+	background-color: rgb(156, 156, 53);
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.ProceedButton {
+	width: 130px;
+	height: 40px;
+	background-color: green;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.notStampedSignal {
+	width: 100%;
+	font-size: 20px;
+	font-size: bolder;
+	z-index: -0.8;
+	color: red;
+	text-align: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+	.PreviewThisContent > p {
+		font-size: 15px;
+	}
+
+	.buttonHolder {
+		margin-top: 40px;
+		width: 30%;
+	}
+
+	.EditButton {
+		width: 100px;
+		height: 30px;
+		font-size: 15px;
+	}
+
+	.ProceedButton {
+		width: 100px;
+		height: 30px;
+		font-size: 15px;
+	}
+
+	.ReportPageHeader > button {
+		width: 80px;
+		height: 30px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.PreviewThisContent > p {
+		font-size: 15px;
+	}
+	.EditButton {
+		width: 80px;
+		height: 30px;
+	}
+
+	.ProceedButton {
+		width: 80px;
+	}
+	.Preview {
+		font-size: 35px;
+	}
+	.PreviewThisContent {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.PreviewThisContent > p {
+		font-size: 11px;
+		line-height: 20px;
+	}
+
+	.Preview {
+		font-size: 30px;
+	}
+
+	.ReportPageHeader > button {
+		width: 70px;
+		height: 25px;
+	}
+	.EditButton {
+		margin-right: 10px;
+		font-size: 10px;
+		height: 20px;
+	}
+
+	.ProceedButton {
+		margin-left: 10px;
+		font-size: 10px;
+		height: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.Preview {
+		font-size: 15px;
+	}
+}

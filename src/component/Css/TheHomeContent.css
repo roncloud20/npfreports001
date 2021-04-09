@@ -1,0 +1,16 @@
+.TheHomeContentContainer {
+	width: 80%;
+	height: auto;
+	margin-top: 50px;
+}
+
+.TheHomeContentContainer > h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.TheHomeContentContainer>p{
+    line-height:30px;
+    text-align: start;
+
+}

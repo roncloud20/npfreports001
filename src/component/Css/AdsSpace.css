@@ -1,0 +1,17 @@
+.AdsSpace {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.adsSpaceContent {
+	width: 80%;
+	height: 200px;
+	border: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
